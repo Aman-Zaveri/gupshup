@@ -11,7 +11,7 @@ import useConversation from "@/app/hooks/useConversation";
 import ConversationBox from "./ConversationBox";
 import { FullConversationType } from "@/app/types";
 import GroupChatModal from "./GroupChatModal";
-import { pusherClient } from "@/app/libs/pusher";
+import { pusherClient } from "@/app/lib/pusher";
 import { find } from "lodash";
 
 interface ConversationListProps {

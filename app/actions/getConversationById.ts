@@ -1,4 +1,4 @@
-import prisma from "@/app/libs/prsimadb";
+import prisma from "@/app/lib/prsimadb";
 import getCurrentUser from "./getCurrentUser";
 
 const getConversationById = async (

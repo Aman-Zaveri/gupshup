@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 
 import getCurrentUser from "@/app/actions/getCurrentUser";
-import prisma from "@/app/libs/prsimadb";
-import { pusherServer } from "@/app/libs/pusher";
+import prisma from "@/app/lib/prsimadb";
+import { pusherServer } from "@/app/lib/pusher";
 import { use } from "react";
 
 export async function POST(request: Request) {
